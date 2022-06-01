@@ -1,0 +1,22 @@
+:root{
+
+    /*Colores*/
+
+    --rojo-salsa: #FB3640;
+    --gris: #605F5E;
+    --azul-eg: #247BA0;
+    --space-cadet: #1D3461;
+    --yale-blue: #1F487E;
+
+    /*Colores*/
+
+    /*Fuente*/
+    /*https://fonts.google.com/specimen/Montserrat?preview.text=Study%20and%20Beyond&preview.text_type=custom*/
+
+    --default-font: 'Montserrat', sans-serif; 
+    /*Fuente*/
+}
+
+body {
+    background-color: var(--azul-eg);
+}

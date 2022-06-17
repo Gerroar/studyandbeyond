@@ -17,6 +17,96 @@
     /*Fuente*/
 }
 
-/*body {
-    background-color: var(--azul-eg);
-}*/
+body {
+    margin: 0;
+}
+
+/*-------------------MOBILE-------------------*/
+
+/*Grid*/
+header {
+    grid-area: header;
+}
+
+.contenido {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+    background-color: var(--space-cadet);
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-family: var(--default-font);
+    color: white;
+}
+
+main {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer";
+    
+}
+/*Grid*/
+
+/*Footer*/
+
+/*Footer politics info id*/
+#FotPol {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+/*Footer contact id div*/
+#FotCon {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+/*Footer info container*/
+.fIcont {
+    width: 70%;
+    height: 51%;
+    background-color: white;
+    border-radius: 6px;
+    margin: 0 0 0 13%;
+    text-align: center;
+    padding-top: 2%;
+    align-self: center;
+}
+
+.fIcont:link {
+    text-decoration: none;
+    color: var(--space-cadet);
+}
+
+.phone-icon {
+    fill: green;
+    width: 30%;
+    height: 50%;
+    margin: 0 -9% 0 -9%;
+}
+
+.email-icon {
+    width: 15%;
+    height: 80%;
+    margin: 0 5% -4% 0;
+}
+
+#FotPol span {
+    align-self: center;
+    text-align: center;
+}
+
+#pLinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+/*Footer*/
+/*-------------------MOBILE-------------------*/

@@ -26,6 +26,10 @@ body {
 /*Grid*/
 header {
     grid-area: header;
+    background-color: var(--azul-eg);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .contenido {
@@ -53,6 +57,17 @@ main {
     
 }
 /*Grid*/
+
+/*Header*/
+
+/*Hamburger Menu*/
+
+.hamMenu {
+    display: grid;
+}
+/*Hamburger Menu*/
+
+/*Header*/
 
 /*Footer*/
 

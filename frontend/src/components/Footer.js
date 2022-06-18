@@ -10,12 +10,12 @@ export default function Footer() {
         <footer>
             <div id="FotCon">
                 <motion.a href="mailto:info@studyandbeyond.es" className="fIcont"
-                 whileTap={{scale: 0.7}}>
+                 onTap={{scale: 0.7}}>
                     <EmailLogo className="email-icon"/>
                         info@studyandbeyond.es
                 </motion.a>
                 <motion.a href="tel:+4531146038" className="fIcont"
-                 whileTap={{scale: 0.7}}>
+                 onTap={{scale: 0.7}}>
                     Let's <PhoneLogo className="phone-icon"/> +4531146038
                 </motion.a>
             </div>

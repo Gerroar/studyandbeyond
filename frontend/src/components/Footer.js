@@ -8,25 +8,26 @@ export default function Footer() {
      */
     return(
         <footer>
+            <div id="extend-footer"></div>
             <div id="FotCon">
-                <motion.a href="mailto:info@studyandbeyond.es" className="fIcont"
-                 onTap={{scale: 0.7}}>
-                    <EmailLogo className="email-icon"/>
-                        info@studyandbeyond.es
-                </motion.a>
-                <motion.a href="tel:+4531146038" className="fIcont"
-                 onTap={{scale: 0.7}}>
-                    Let's <PhoneLogo className="phone-icon"/> +4531146038
-                </motion.a>
-            </div>
-            <div id="FotPol">
-                <span>CVR : 43172794</span>
-                <div id="pLinks">
-                    <a id="pAvisoL">Legal</a>
-                    <a id="pPriv">Privacy Policy</a>
-                    <a id="pCookies">Cookies Policy</a>
-                    <a id="pCan">Cancellation</a>
+                <div>
+                    <p>CVR</p>
+                    <p>43172794</p>
                 </div>
+                <a href="mailto:info@studyandbeyond.es" className="fIcont">
+                    <EmailLogo className="email-icon"/>
+                    <span>info@studyandbeyond.es</span>
+                </a>
+                <a href="tel:+4531146038" className="fIcont">
+                    <PhoneLogo className="phone-icon"/>
+                    <span>+4531146038</span>
+                </a>
+            </div>
+            <div id="FotPol">              
+                <a id="pLegal">Legal</a>
+                <a id="pPriv">Política de privacidad</a>
+                <a id="pCookies">Política de Cookies</a>
+                <a id="pCan">Cancelación</a>
             </div>
         </footer>
     );

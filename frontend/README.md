@@ -2,5 +2,5 @@
 
 ## **Indice/Index**
 
-1. [Español](#introuducion)
-2. [English](#introudction)
+1. [Español](#introuduccion)
+2. [English](#introuduction)

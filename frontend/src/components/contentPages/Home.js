@@ -1,5 +1,4 @@
-import SBButton from "../buttons/SBButton";
-import DenButton from "../buttons/DenButton";
+import { Link } from 'react-router-dom';
 
 export default function Home() {
     /**Aqui se muestran los botones principales con información de SB y 
@@ -7,8 +6,10 @@ export default function Home() {
      */
     return(
         <div className="contenido">
-            <SBButton/>
-            <DenButton/>
+                <h1>Home</h1>
+                <Link to="/sb">
+                    <button>SB</button>
+                </Link>
         </div>
     );
 }

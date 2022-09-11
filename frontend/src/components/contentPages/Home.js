@@ -8,7 +8,12 @@ export default function Home() {
         <div className="contenido">
                 <h1>Home</h1>
                 <Link to="/sb">
-                    <button>SB</button>
+                    <div className="r-transition-div">
+
+                    </div>
+                </Link>
+                <Link to="/denmark">
+                    <button>Dinamarca</button>
                 </Link>
         </div>
     );

@@ -18,6 +18,7 @@
     /*Fuente*/
 }
 
+
 body {
     margin: 0;
 }
@@ -102,6 +103,49 @@ main {
 /*Header*/
 
 /*Main content*/
+
+.text-link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.transition-div {
+   
+    margin-left: 25%;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+}
+
+#sb-div {
+    margin-top: 50px;
+    background-color: var(--yale-blue);
+
+}
+
+#dk-div {
+
+    margin-top: 15px;
+    background-color: var(--rojo-salsa);
+}
+
+#dk-div p{
+    text-align: center;
+    padding-top: 25%;
+    color: white;
+    font-family: var(--default-font);
+    font-size: 220%;
+    font-weight: 700;
+
+}
+
+
+#sb-button {
+    width: 80%;
+    margin-left: 11%;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
 
 /*Main content*/
 

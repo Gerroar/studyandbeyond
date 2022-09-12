@@ -8,7 +8,6 @@ export default function Footer() {
      */
     return(
         <footer>
-            <div id="extend-footer"></div>
             <div id="FotCon">
                 <div>
                     <p>CVR</p>

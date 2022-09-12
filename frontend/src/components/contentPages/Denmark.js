@@ -5,7 +5,7 @@ export default function Denmark() {
     return(
         <div className="contenido">
             <h1>Dinamarca</h1>
-            <Link to="/">
+            <Link to="/" className="text-link">
                 <button>Home</button>
             </Link>
         </div>

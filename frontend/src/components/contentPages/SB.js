@@ -4,7 +4,7 @@ export default function SB() {
     return (
         <div className="contenido">
             <h1>SB</h1>
-            <Link to="/">
+            <Link to="/" className="text-link">
                 <button>Home</button>
             </Link>
         </div>

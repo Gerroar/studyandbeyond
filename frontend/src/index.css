@@ -195,11 +195,6 @@ main {
 
 /*Footer contact id div*/
 
-#extend-footer{
-    height: 30px;
-    background-color: white;
-}
-
 #FotCon {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

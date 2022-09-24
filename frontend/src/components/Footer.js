@@ -17,9 +17,9 @@ export default function Footer() {
                     <EmailLogo className="email-icon"/>
                     <span>info@studyandbeyond.es</span>
                 </a>
-                <a href="tel:+4531146038" className="fIcont">
+                <a href="tel:635369915" className="fIcont">
                     <PhoneLogo className="phone-icon"/>
-                    <span>+4531146038</span>
+                    <span>635369915</span>
                 </a>
             </div>
             <div id="FotPol">              
